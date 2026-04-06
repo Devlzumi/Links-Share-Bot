@@ -103,14 +103,14 @@ Powered by **Pyrogram**, it provides a seamless experience for users to join cha
 Below are the required and optional environment variables for deployment.
 
 ```env
-API_ID=              # Required - Get from https://my.telegram.org
-API_HASH=            # Required - From https://my.telegram.org
-TG_BOT_TOKEN=        # Required - Get from @BotFather
-OWNER_ID=            # Required - Your Telegram user ID
-ADMINS=              # Required - Admin user IDs (space separated)
-DB_URL=              # Required - MongoDB connection string
-DB_NAME=             # Optional - MongoDB database name (default: LinkShareBot)
-DATABASE_CHANNEL=    # Required - Private channel ID for link storage
+API_ID= 31864613
+API_HASH=48d0a5b52baef49f1b4c7ab72decb8fa
+TG_BOT_TOKEN=8763715975:AAFFZS692F_xHUf3P1IvNrihOyl0p9mCHBs
+OWNER_ID=8438792943
+ADMINS=8438792943
+DB_URL=mongodb+srv://Ly_farhan45:@Farhankhan@00@cluster0.kbdkckc.mongodb.net
+DB_NAME=LinkShareBot)
+DATABASE_CHANNEL=-1003842171248
 ```
 
 ⚠️ **Never expose raw credentials or tokens in public repos.** Use safe paste services like [Pastebin](https://pastebin.com) or [Batbin](https://batbin.me).
